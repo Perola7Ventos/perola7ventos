@@ -1,0 +1,14 @@
+PDF ORIGINAL PRESERVADO EM CINCO PARTES BINÁRIAS.
+Ficheiro: COLECAO_DOCUMENTAL_BTS_ARMY_9_FASCICULOS_36_PAGINAS.pdf
+Tamanho original: 10214684 bytes
+SHA-256 original: 422d8eb2576e696caf5f535a325b0f2d699c436eef0a491eced6bd0adb78149b
+
+Para restaurar (Linux/macOS/Git Bash):
+cat colecao36.pdf.part001 colecao36.pdf.part002 colecao36.pdf.part003 colecao36.pdf.part004 colecao36.pdf.part005 > COLECAO_DOCUMENTAL_BTS_ARMY_9_FASCICULOS_36_PAGINAS.pdf
+sha256sum COLECAO_DOCUMENTAL_BTS_ARMY_9_FASCICULOS_36_PAGINAS.pdf
+
+Para restaurar (PowerShell):
+$parts = 1..5 | ForEach-Object { 'colecao36.pdf.part{0:D3}' -f $_ }
+$out = [System.IO.File]::Create('COLECAO_DOCUMENTAL_BTS_ARMY_9_FASCICULOS_36_PAGINAS.pdf')
+try { foreach ($part in $parts) { $bytes=[System.IO.File]::ReadAllBytes((Join-Path (Get-Location) $part)); $out.Write($bytes,0,$bytes.Length) } } finally { $out.Dispose() }
+(Get-FileHash 'COLECAO_DOCUMENTAL_BTS_ARMY_9_FASCICULOS_36_PAGINAS.pdf' -Algorithm SHA256).Hash
