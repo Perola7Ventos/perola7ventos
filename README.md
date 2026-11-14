@@ -21,3 +21,7 @@ A estrutura P0.0 existe, mas não representa o restauro final. Não trocar pági
 ## Verificação
 
 Os ficheiros originais incluídos no ZIP de recuperação contêm um inventário SHA-256 para deteção de alterações.
+
+## Recuperação dos manuscritos a partir das conversas
+
+Está disponível a ferramenta [recuperar_wordpress_de_chats.py](ferramentas/recuperar_wordpress_de_chats.py). Pode procurar conteúdos originais em registos de execução incluídos numa exportação das conversas ChatGPT. A existência desses registos na exportação **não está garantida**. Não publicar a exportação completa em repositórios públicos, pois contém conversas pessoais.
