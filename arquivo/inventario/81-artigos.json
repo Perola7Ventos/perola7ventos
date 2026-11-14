@@ -524,7 +524,8 @@
     {
       "tipo": "one-shot",
       "slug": "reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins",
-      "corpo_integral_recuperado": false
+      "corpo_integral_recuperado": true,
+      "fonte_corpo_integral": "Manuscrito integral preservado numa conversa anterior; título final aprovado. Não comparado com WordPress suspenso."
     },
     {
       "tipo": "one-shot",

@@ -4,12 +4,12 @@
   "pages_in_inventory": 75,
   "articles_in_inventory": 81,
   "original_texts_confirmed_recovered": 2,
-  "original_texts_not_available": 81,
+  "original_texts_not_available": 80,
   "linked_destinations": 7,
   "generated_pages": 74,
-  "notes": "Os 81 artigos do inventário não possuem corpos originais recuperados via WordPress. Dois manuscritos externos recuperados de conversas estão disponíveis, sem atribuição falsa a artigos do inventário. PDF integral reconstruído no navegador com verificação SHA-256.",
+  "notes": "81 artigos catalogados; a crackfic 'Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins?' tem manuscrito integral recuperado de conversa anterior, sem verificação contra o WordPress suspenso. A Lenda também foi recuperada de conversa. Outros 80 artigos permanecem sem texto integral.",
   "additional_full_manuscripts_from_conversations": [
-    "OS DRAGÕES DE JUNGKOOK",
+    "Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins?",
     "A Lenda da Pérola dos Sete Ventos"
   ],
   "pdf_original_36_pages_sha256": "422d8eb2576e696caf5f535a325b0f2d699c436eef0a491eced6bd0adb78149b"

@@ -31,7 +31,7 @@ Está disponível a ferramenta [recuperar_wordpress_de_chats.py](ferramentas/rec
 
 - Portal HTML/CSS/JS com sete botões navegáveis, banner V3, ornamentos e tipografia responsiva.
 - **75 páginas** do inventário e **81 publicações** do inventário acessíveis por caminhos estáticos.
-- Dois manuscritos recuperados integralmente a partir das conversas: [OS DRAGÕES DE JUNGKOOK](ficcao/cracfics/os-dragoes-de-jungkook/) e [A Lenda da Pérola dos Sete Ventos](a-lenda-da-perola-dos-sete-ventos/). Não foi possível comparar as versões com o WordPress suspenso. A história dos dragões não foi substituída automaticamente pela ficha de Reunião Pré-Tour.
+- Dois manuscritos recuperados integralmente a partir das conversas: [Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins?](ficcao/cracfics/reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins/) e [A Lenda da Pérola dos Sete Ventos](a-lenda-da-perola-dos-sete-ventos/). Não foi possível comparar as versões com o WordPress suspenso. O manuscrito e a ficha da Reunião Pré-Tour estão consolidados numa única página com o título definitivo; os endereços históricos redirecionam para ela.
 - O texto integral de outras páginas e artigos **continua indisponível** por suspensão do WordPress; nenhum capítulo foi inventado para preencher lacunas.
 - Imagens e documentos binários previamente arquivados foram preservados, bem como o [relatório de resgate](arquivo/resgate-wordpress/estado_resgate.json).
 - Sem WordPress no código de execução: o site GitHub Pages funciona apenas com HTML, CSS e JavaScript.
@@ -41,3 +41,7 @@ Está disponível a ferramenta [recuperar_wordpress_de_chats.py](ferramentas/rec
 ## Fascículos BTS × ARMY no GitHub Pages
 
 A [página dos nove fascículos](warehouse-0613/bts/fasciculos/) reconstitui no navegador o PDF de 36 páginas a partir dos cinco blocos originais e verifica o SHA-256 422d8eb2576e696caf5f535a325b0f2d699c436eef0a491eced6bd0adb78149b. Não altera as páginas do documento.
+
+## Título definitivo da crackfic
+
+O título único é **Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins?**. A [página canónica](ficcao/cracfics/reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins/) contém o manuscrito integral; as ligações antigas redirecionam para ela. O texto narrativo não foi reescrito.
