@@ -4,7 +4,7 @@ Migração de `perola7ventos.wordpress.com`, cujo acesso aos conteúdos foi bloq
 
 ## Material original recuperado
 
-- 9 fascículos BTS × ARMY (PDFs individuais, compilação de 36 páginas e ficheiro DOCX editável) preservados no **pacote de fontes do resgate**.
+- 9 fascículos BTS × ARMY: PDFs individuais preservados no pacote de resgate; [DOCX editável ORIGINAL](arquivo/fontes-originais/FASCICULOS_BTS_ARMY_ARQUIVO_EDITAVEL.docx) transferido em formato binário; [PDF ORIGINAL de 36 páginas em cinco partes binárias](arquivo/fontes-originais/pdf-em-partes/) com instruções de reconstrução e SHA-256 para confirmar a integridade.
 - Texto recuperado dos fascículos: [transcrição do DOCX](arquivo/fontes-editaveis/fasciculos-bts-army-transcricao-docx.txt) e [extração do PDF](arquivo/fontes-editaveis/colecao-documental-bts-army-36-paginas-texto-pdf.txt).
 - 13 imagens originais da discografia e ficheiros visuais (no pacote de fontes).
 - Cópias HTML de [coleção de fascículos](arquivo/versoes-visuais/previa_colecao_fasciculos_bts.html) e [menu dos Sete Ventos](arquivo/versoes-visuais/previa-menu-sete-ventos.html).
