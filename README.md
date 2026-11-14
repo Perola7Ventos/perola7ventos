@@ -31,7 +31,9 @@ Está disponível a ferramenta [recuperar_wordpress_de_chats.py](ferramentas/rec
 
 - Portal HTML/CSS/JS com sete botões navegáveis, banner V3, ornamentos e tipografia responsiva.
 - **75 páginas** do inventário e **81 publicações** do inventário acessíveis por caminhos estáticos.
-- Um manuscrito integral preservado em [OS DRAGÕES DE JUNGKOOK](ficcao/cracfics/os-dragoes-de-jungkook/), proveniente do ficheiro original de conversa. Não deve ser confundido sem confirmação com versões alternativas do título de reunião pré-tour.
+- Dois manuscritos recuperados: [OS DRAGÕES DE JUNGKOOK](ficcao/cracfics/os-dragoes-de-jungkook/), proveniente do ficheiro original de conversa. Não deve ser confundido sem confirmação com versões alternativas do título de reunião pré-tour.
 - O texto integral de outras páginas e artigos **continua indisponível** por suspensão do WordPress; nenhum capítulo foi inventado para preencher lacunas.
 - Imagens e documentos binários previamente arquivados foram preservados, bem como o [relatório de resgate](arquivo/resgate-wordpress/estado_resgate.json).
 - Sem WordPress no código de execução: o site GitHub Pages funciona apenas com HTML, CSS e JavaScript.
+
+- [A Lenda da Pérola dos Sete Ventos](a-lenda-da-perola-dos-sete-ventos/) recuperada do texto integral criado nesta conversa (prólogo, nove capítulos e epílogo), com as correções PT-PT registadas; não obtida por leitura direta do WordPress suspenso.
