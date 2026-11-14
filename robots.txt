@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://perola7ventos.github.io/perola7ventos/sitemap.xml

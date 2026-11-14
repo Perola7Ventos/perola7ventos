@@ -12,11 +12,11 @@ Migração de `perola7ventos.wordpress.com`, cujo acesso aos conteúdos foi bloq
 
 ## Manuscritos
 
-Os textos integrais publicados no WordPress não estão contidos na versão P0.0 deste site. **O facto de terem sido escritos pelo assistente e publicados no WordPress não garante que exista cópia externa automática.** O arquivo completo desses manuscritos só pode ser considerado recuperado após obtenção dos textos originais. Não usar resumos ou reescritas como substituição.
+O inventário WordPress está recuperado, mas **a maioria dos textos integrais** não está disponível após a suspensão do site. **O facto de terem sido escritos pelo assistente e publicados no WordPress não garante que exista cópia externa automática.** O arquivo completo desses manuscritos só pode ser considerado recuperado após obtenção dos textos originais. Não usar resumos ou reescritas como substituição.
 
 ## GitHub Pages
 
-A estrutura P0.0 existe, mas não representa o restauro final. Não trocar páginas do site por versões fictícias.
+A estrutura P0.0 foi substituída por um portal HTML/CSS/JS com todas as rotas inventariadas. Os manuscritos que faltam permanecem assinalados, sem versões fictícias.
 
 ## Verificação
 
@@ -31,9 +31,13 @@ Está disponível a ferramenta [recuperar_wordpress_de_chats.py](ferramentas/rec
 
 - Portal HTML/CSS/JS com sete botões navegáveis, banner V3, ornamentos e tipografia responsiva.
 - **75 páginas** do inventário e **81 publicações** do inventário acessíveis por caminhos estáticos.
-- Dois manuscritos recuperados: [OS DRAGÕES DE JUNGKOOK](ficcao/cracfics/os-dragoes-de-jungkook/), proveniente do ficheiro original de conversa. Não deve ser confundido sem confirmação com versões alternativas do título de reunião pré-tour.
+- Dois manuscritos recuperados integralmente a partir das conversas: [OS DRAGÕES DE JUNGKOOK](ficcao/cracfics/os-dragoes-de-jungkook/) e [A Lenda da Pérola dos Sete Ventos](a-lenda-da-perola-dos-sete-ventos/). Não foi possível comparar as versões com o WordPress suspenso. A história dos dragões não foi substituída automaticamente pela ficha de Reunião Pré-Tour.
 - O texto integral de outras páginas e artigos **continua indisponível** por suspensão do WordPress; nenhum capítulo foi inventado para preencher lacunas.
 - Imagens e documentos binários previamente arquivados foram preservados, bem como o [relatório de resgate](arquivo/resgate-wordpress/estado_resgate.json).
 - Sem WordPress no código de execução: o site GitHub Pages funciona apenas com HTML, CSS e JavaScript.
 
-- [A Lenda da Pérola dos Sete Ventos](a-lenda-da-perola-dos-sete-ventos/) recuperada do texto integral criado nesta conversa (prólogo, nove capítulos e epílogo), com as correções PT-PT registadas; não obtida por leitura direta do WordPress suspenso.
+- A lenda inclui o prólogo, nove capítulos, epílogo e as correções PT-PT registadas; está disponível também [em Markdown editável](arquivo/fontes-editaveis/lenda-perola-sete-ventos-texto.md).
+
+## Fascículos BTS × ARMY no GitHub Pages
+
+A [página dos nove fascículos](warehouse-0613/bts/fasciculos/) reconstitui no navegador o PDF de 36 páginas a partir dos cinco blocos originais e verifica o SHA-256 422d8eb2576e696caf5f535a325b0f2d699c436eef0a491eced6bd0adb78149b. Não altera as páginas do documento.

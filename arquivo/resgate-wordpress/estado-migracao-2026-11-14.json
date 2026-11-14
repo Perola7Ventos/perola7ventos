@@ -3,9 +3,14 @@
   "source": "Inventários preservados no repositório após suspensão WordPress",
   "pages_in_inventory": 75,
   "articles_in_inventory": 81,
-  "original_texts_confirmed_recovered": 1,
+  "original_texts_confirmed_recovered": 2,
   "original_texts_not_available": 81,
   "linked_destinations": 7,
   "generated_pages": 74,
-  "notes": "A publicação original OS DRAGÕES DE JUNGKOOK foi recuperada de ficheiro de conversa; outras publicações aparecem sem corpo integral, sem reescritas inventadas. PDFs e imagens históricos mantidos no repositório."
+  "notes": "Os 81 artigos do inventário não possuem corpos originais recuperados via WordPress. Dois manuscritos externos recuperados de conversas estão disponíveis, sem atribuição falsa a artigos do inventário. PDF integral reconstruído no navegador com verificação SHA-256.",
+  "additional_full_manuscripts_from_conversations": [
+    "OS DRAGÕES DE JUNGKOOK",
+    "A Lenda da Pérola dos Sete Ventos"
+  ],
+  "pdf_original_36_pages_sha256": "422d8eb2576e696caf5f535a325b0f2d699c436eef0a491eced6bd0adb78149b"
 }
