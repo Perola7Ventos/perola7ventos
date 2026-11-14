@@ -1,0 +1,37 @@
+name: Recuperar manuscritos originais WordPress
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/recuperar-manuscritos-wordpress.yml"
+permissions:
+  contents: write
+jobs:
+  resgatar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar dependências
+        run: python -m pip install requests
+      - name: Consultar fontes públicas e preservar originais
+        run: python ferramentas/resgate_origens_wordpress.py
+      - name: Arquivar relatório de verificação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recuperacao-manuscritos-wordpress
+          path: arquivo/resgate-wordpress/
+          if-no-files-found: warn
+      - name: Gravar apenas manuscritos recuperados no repositório
+        shell: bash
+        run: |
+          git config user.name "Pérola 7 Ventos - arquivo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add arquivo/resgate-wordpress/
+          if git diff --cached --quiet; then
+            echo "Sem manuscritos ou relatórios novos"
+          else
+            git commit -m "Arquivar respostas originais recolhidas do WordPress e arquivos"
+            git push
+          fi
