@@ -1,0 +1,530 @@
+{
+  "origem": "Listagem de páginas WordPress obtida antes da suspensão",
+  "paginas": [
+    {
+      "id": 451,
+      "slug": "satoori-sotaques-e-dialetos-coreanos",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/satoori-sotaques-e-dialetos-coreanos/"
+    },
+    {
+      "id": 410,
+      "slug": "bts-the-best",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/bts-the-best/"
+    },
+    {
+      "id": 409,
+      "slug": "the-best-of-bts-korea-edition-japan",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/the-best-of-bts-korea-edition-japan/"
+    },
+    {
+      "id": 408,
+      "slug": "the-best-of-bts-japan-edition",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/the-best-of-bts-japan-edition/"
+    },
+    {
+      "id": 373,
+      "slug": "dancheong-yeondeunghoe-cores-lanternas",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/dancheong-yeondeunghoe-cores-lanternas/"
+    },
+    {
+      "id": 372,
+      "slug": "taekkyeon-ssireum-desporto-tradicional",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/taekkyeon-ssireum-desporto-tradicional/"
+    },
+    {
+      "id": 371,
+      "slug": "etiqueta-coreana-cumprimentos-mesa-e-formalidade",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/etiqueta-coreana-cumprimentos-mesa-e-formalidade/"
+    },
+    {
+      "id": 369,
+      "slug": "jikji-livros-impressao-goryeo",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/jikji-livros-impressao-goryeo/"
+    },
+    {
+      "id": 368,
+      "slug": "pansori-nongak-voz-ritmo-comunidade",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/pansori-nongak-voz-ritmo-comunidade/"
+    },
+    {
+      "id": 367,
+      "slug": "hanji-papel-coreano-tradicao-e-oficio",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/hanji-papel-coreano-tradicao-e-oficio/"
+    },
+    {
+      "id": 366,
+      "slug": "bojagi-e-maedeup-tecidos-nos-e-memoria",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/bojagi-e-maedeup-tecidos-nos-e-memoria/"
+    },
+    {
+      "id": 365,
+      "slug": "minhwa-pintura-popular-e-simbolismo",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/minhwa-pintura-popular-e-simbolismo/"
+    },
+    {
+      "id": 322,
+      "slug": "musica",
+      "parent": 296,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/"
+    },
+    {
+      "id": 319,
+      "slug": "coreano-em-contexto-aprender-a-comunicar",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/coreano-em-contexto-aprender-a-comunicar/"
+    },
+    {
+      "id": 318,
+      "slug": "arirang-talchum-haenyeo-patrimonio-vivo",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/arirang-talchum-haenyeo-patrimonio-vivo/"
+    },
+    {
+      "id": 317,
+      "slug": "kimjang-e-a-mesa-coreana",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/kimjang-e-a-mesa-coreana/"
+    },
+    {
+      "id": 316,
+      "slug": "hanok-hanbok-arquitetura-e-identidade",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/hanok-hanbok-arquitetura-e-identidade/"
+    },
+    {
+      "id": 315,
+      "slug": "seollal-dano-chuseok-festas-coreanas",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/seollal-dano-chuseok-festas-coreanas/"
+    },
+    {
+      "id": 314,
+      "slug": "mudang-gut-xamanismo-coreano",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/mudang-gut-xamanismo-coreano/"
+    },
+    {
+      "id": 313,
+      "slug": "saju-quatro-pilares-cinco-elementos",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/saju-quatro-pilares-cinco-elementos/"
+    },
+    {
+      "id": 312,
+      "slug": "dalmaji-dalmajung-a-lua-entre-tradicao-e-recriacao",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/dalmaji-dalmajung-a-lua-entre-tradicao-e-recriacao/"
+    },
+    {
+      "id": 311,
+      "slug": "historia-coreia-camadas-de-memoria",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/historia-coreia-camadas-de-memoria/"
+    },
+    {
+      "id": 310,
+      "slug": "hangul-uma-revolucao-em-letras",
+      "parent": 285,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/hangul-uma-revolucao-em-letras/"
+    },
+    {
+      "id": 332,
+      "slug": "arirang",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/arirang/"
+    },
+    {
+      "id": 331,
+      "slug": "be",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/be/"
+    },
+    {
+      "id": 330,
+      "slug": "map-of-the-soul-7-the-journey",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/map-of-the-soul-7-the-journey/"
+    },
+    {
+      "id": 329,
+      "slug": "map-of-the-soul-7",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/map-of-the-soul-7/"
+    },
+    {
+      "id": 328,
+      "slug": "love-yourself-tear",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/love-yourself-tear/"
+    },
+    {
+      "id": 327,
+      "slug": "face-yourself",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/face-yourself/"
+    },
+    {
+      "id": 326,
+      "slug": "wings",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/wings/"
+    },
+    {
+      "id": 325,
+      "slug": "youth",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/youth/"
+    },
+    {
+      "id": 324,
+      "slug": "wake-up",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/wake-up/"
+    },
+    {
+      "id": 323,
+      "slug": "dark-and-wild",
+      "parent": 322,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/musica/dark-and-wild/"
+    },
+    {
+      "id": 321,
+      "slug": "curiosidades",
+      "parent": 296,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/curiosidades/"
+    },
+    {
+      "id": 296,
+      "slug": "bts",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/bts/"
+    },
+    {
+      "id": 292,
+      "slug": "hoseok",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/hoseok/"
+    },
+    {
+      "id": 295,
+      "slug": "jungkook",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/jungkook/"
+    },
+    {
+      "id": 294,
+      "slug": "taehyung",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/taehyung/"
+    },
+    {
+      "id": 290,
+      "slug": "seokjin",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/seokjin/"
+    },
+    {
+      "id": 293,
+      "slug": "jimin",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/jimin/"
+    },
+    {
+      "id": 291,
+      "slug": "yoongi",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/yoongi/"
+    },
+    {
+      "id": 289,
+      "slug": "namjoon",
+      "parent": 19,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/namjoon/"
+    },
+    {
+      "id": 285,
+      "slug": "korean-corner",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/korean-corner/"
+    },
+    {
+      "id": 284,
+      "slug": "curiosity-cabinet",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/curiosity-cabinet/"
+    },
+    {
+      "id": 283,
+      "slug": "art-unbound",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/art-unbound/"
+    },
+    {
+      "id": 282,
+      "slug": "ctrl-chaos",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/ctrl-chaos/"
+    },
+    {
+      "id": 175,
+      "slug": "a-lenda-da-perola-dos-sete-ventos",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/a-lenda-da-perola-dos-sete-ventos/"
+    },
+    {
+      "id": 53,
+      "slug": "ink-reflections",
+      "parent": 5,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/"
+    },
+    {
+      "id": 60,
+      "slug": "your-library",
+      "parent": 53,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/your-library/"
+    },
+    {
+      "id": 52,
+      "slug": "ink-fiction",
+      "parent": 5,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/"
+    },
+    {
+      "id": 55,
+      "slug": "longfics",
+      "parent": 52,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/longfics/"
+    },
+    {
+      "id": 54,
+      "slug": "one-shots",
+      "parent": 52,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/one-shots/"
+    },
+    {
+      "id": 74,
+      "slug": "shelfies",
+      "parent": 60,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/your-library/shelfies/"
+    },
+    {
+      "id": 73,
+      "slug": "currently-reading",
+      "parent": 60,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/your-library/currently-reading/"
+    },
+    {
+      "id": 72,
+      "slug": "crossovers",
+      "parent": 55,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/longfics/crossovers/"
+    },
+    {
+      "id": 71,
+      "slug": "hybridfics",
+      "parent": 55,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/longfics/hybridfics/"
+    },
+    {
+      "id": 70,
+      "slug": "genfics",
+      "parent": 55,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/longfics/genfics/"
+    },
+    {
+      "id": 69,
+      "slug": "fusionfics",
+      "parent": 55,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/longfics/fusionfics/"
+    },
+    {
+      "id": 68,
+      "slug": "cracfics",
+      "parent": 55,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/longfics/cracfics/"
+    },
+    {
+      "id": 67,
+      "slug": "fanfics",
+      "parent": 55,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/longfics/fanfics/"
+    },
+    {
+      "id": 66,
+      "slug": "crossovers",
+      "parent": 54,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/one-shots/crossovers/"
+    },
+    {
+      "id": 65,
+      "slug": "hybridfics",
+      "parent": 54,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/one-shots/hybridfics/"
+    },
+    {
+      "id": 64,
+      "slug": "genfics",
+      "parent": 54,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/one-shots/genfics/"
+    },
+    {
+      "id": 63,
+      "slug": "fusionfics",
+      "parent": 54,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/one-shots/fusionfics/"
+    },
+    {
+      "id": 62,
+      "slug": "cracfics",
+      "parent": 54,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/one-shots/cracfics/"
+    },
+    {
+      "id": 61,
+      "slug": "fanfics",
+      "parent": 54,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-fiction/one-shots/fanfics/"
+    },
+    {
+      "id": 59,
+      "slug": "hidden-pearls",
+      "parent": 53,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/hidden-pearls/"
+    },
+    {
+      "id": 58,
+      "slug": "dnf",
+      "parent": 53,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/dnf/"
+    },
+    {
+      "id": 57,
+      "slug": "recommendations",
+      "parent": 53,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/recommendations/"
+    },
+    {
+      "id": 56,
+      "slug": "reviews",
+      "parent": 53,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/ink-reflections/reviews/"
+    },
+    {
+      "id": 19,
+      "slug": "warehouse-0613",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/warehouse-0613/"
+    },
+    {
+      "id": 18,
+      "slug": "7-purple-seas-loja",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/7-purple-seas-loja/"
+    },
+    {
+      "id": 5,
+      "slug": "echos-of-ink",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/echos-of-ink/"
+    },
+    {
+      "id": 4,
+      "slug": "inicio",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/"
+    },
+    {
+      "id": 1,
+      "slug": "sobre",
+      "parent": 0,
+      "corpo_integral_recuperado": false,
+      "antigo_caminho": "/sobre/"
+    }
+  ]
+}
