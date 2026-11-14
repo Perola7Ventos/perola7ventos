@@ -1,0 +1,605 @@
+{
+  "origem": "Listagem WordPress consultada antes da suspensão",
+  "artigos": [
+    {
+      "tipo": "longfic",
+      "serie": "A Rua das Duas Horas",
+      "capitulo": 1,
+      "slug": "a-rua-das-duas-horas",
+      "id": 270,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Rua das Duas Horas",
+      "capitulo": 2,
+      "slug": "a-rua-das-duas-horas-capitulo-2",
+      "id": 549,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Rua das Duas Horas",
+      "capitulo": 3,
+      "slug": "a-rua-das-duas-horas-capitulo-3",
+      "id": 550,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Rua das Duas Horas",
+      "capitulo": 4,
+      "slug": "a-rua-das-duas-horas-capitulo-4",
+      "id": 551,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Rua das Duas Horas",
+      "capitulo": 5,
+      "slug": "a-rua-das-duas-horas-capitulo-5",
+      "id": 552,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 1,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao",
+      "id": 272,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 2,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-2",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 3,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-3",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 4,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-4",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 5,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-5",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 6,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-6",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 7,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-7",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 8,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-8",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 9,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-9",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 10,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-10",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 11,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-11",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 12,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-12",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 13,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-13",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 14,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-14",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 15,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-15",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 16,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-16",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 17,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-17",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 18,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-18",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 19,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-19",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "A Cidade que Desaprendeu a Dizer Não",
+      "capitulo": 20,
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-20",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 1,
+      "slug": "o-ponto-cego-do-mapa",
+      "id": 271,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 2,
+      "slug": "o-ponto-cego-do-mapa-capitulo-2",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 3,
+      "slug": "o-ponto-cego-do-mapa-capitulo-3",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 4,
+      "slug": "o-ponto-cego-do-mapa-capitulo-4",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 5,
+      "slug": "o-ponto-cego-do-mapa-capitulo-5",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 6,
+      "slug": "o-ponto-cego-do-mapa-capitulo-6",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 7,
+      "slug": "o-ponto-cego-do-mapa-capitulo-7",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 8,
+      "slug": "o-ponto-cego-do-mapa-capitulo-8",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 9,
+      "slug": "o-ponto-cego-do-mapa-capitulo-9",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 10,
+      "slug": "o-ponto-cego-do-mapa-capitulo-10",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 11,
+      "slug": "o-ponto-cego-do-mapa-capitulo-11",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 12,
+      "slug": "o-ponto-cego-do-mapa-capitulo-12",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 13,
+      "slug": "o-ponto-cego-do-mapa-capitulo-13",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 14,
+      "slug": "o-ponto-cego-do-mapa-capitulo-14",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 15,
+      "slug": "o-ponto-cego-do-mapa-capitulo-15",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 16,
+      "slug": "o-ponto-cego-do-mapa-capitulo-16",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 17,
+      "slug": "o-ponto-cego-do-mapa-capitulo-17",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 18,
+      "slug": "o-ponto-cego-do-mapa-capitulo-18",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 19,
+      "slug": "o-ponto-cego-do-mapa-capitulo-19",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "O Ponto Cego do Mapa",
+      "capitulo": 20,
+      "slug": "o-ponto-cego-do-mapa-capitulo-20",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 1,
+      "slug": "departamento-de-autorizacoes-impossiveis",
+      "id": 269,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 2,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-2",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 3,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-3",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 4,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-4",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 5,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-5",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 6,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-6",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 7,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-7",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 8,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-8",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 9,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-9",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 10,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-10",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 11,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-11",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 12,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-12",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 13,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-13",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 14,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-14",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 15,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-15",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 16,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-16",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 17,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-17",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 18,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-18",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 19,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-19",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "longfic",
+      "serie": "Departamento de Autorizações Impossíveis",
+      "capitulo": 20,
+      "slug": "departamento-de-autorizacoes-impossiveis-capitulo-20",
+      "id": null,
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-protocolo-das-0317",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "a-livraria-das-estacoes-perdidas",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-dia-em-que-ninguem-reconheceu-o-sol",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-peso-exato-de-uma-despedida",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-lugar-que-ficou-por-ocupar",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "relatorio-de-incidente-tempo-7",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-inventario-das-horas-esquecidas",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "arquivo-das-vozes-na-bancada",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "a-oitava-corrente",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "a-ultima-luz-da-sala-c",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "a-greve-geral-dos-guarda-chuvas",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-carteiro-de-1899",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-trilho-fora-do-mapa",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "ata-zero-o-dia-em-falta",
+      "corpo_integral_recuperado": false
+    },
+    {
+      "tipo": "one-shot",
+      "slug": "o-relogio-da-livraria-impossivel",
+      "corpo_integral_recuperado": false
+    }
+  ]
+}
