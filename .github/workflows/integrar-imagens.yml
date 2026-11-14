@@ -1,0 +1,33 @@
+name: Integrar imagens originais do P0
+on:
+  push:
+    paths:
+      - 'site-p0.zip'
+      - '.github/workflows/integrar-imagens.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  integrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Extrair somente imagens do pacote original
+        run: |
+          unzip -o site-p0.zip 'assets/*.png' 'assets/*.webp' -d .
+          test -s assets/banner-v3.webp
+          test -s assets/ornamento-sakuras.png
+          test -s assets/reuniao-pre-tour.webp
+      - name: Guardar imagens no GitHub
+        run: |
+          if [[ -n "$(git status --porcelain assets)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets
+            git commit -m "P0: integrar banner, sakuras e capas originais"
+            git push
+          else
+            echo "Imagens já presentes"
+          fi
