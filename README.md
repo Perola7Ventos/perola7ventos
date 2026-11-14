@@ -25,3 +25,13 @@ Os ficheiros originais incluídos no ZIP de recuperação contêm um inventário
 ## Recuperação dos manuscritos a partir das conversas
 
 Está disponível a ferramenta [recuperar_wordpress_de_chats.py](ferramentas/recuperar_wordpress_de_chats.py). Pode procurar conteúdos originais em registos de execução incluídos numa exportação das conversas ChatGPT. A existência desses registos na exportação **não está garantida**. Não publicar a exportação completa em repositórios públicos, pois contém conversas pessoais.
+
+
+## Migração estrutural de 14/11/2026
+
+- Portal HTML/CSS/JS com sete botões navegáveis, banner V3, ornamentos e tipografia responsiva.
+- **75 páginas** do inventário e **81 publicações** do inventário acessíveis por caminhos estáticos.
+- Um manuscrito integral preservado em [OS DRAGÕES DE JUNGKOOK](ficcao/cracfics/os-dragoes-de-jungkook/), proveniente do ficheiro original de conversa. Não deve ser confundido sem confirmação com versões alternativas do título de reunião pré-tour.
+- O texto integral de outras páginas e artigos **continua indisponível** por suspensão do WordPress; nenhum capítulo foi inventado para preencher lacunas.
+- Imagens e documentos binários previamente arquivados foram preservados, bem como o [relatório de resgate](arquivo/resgate-wordpress/estado_resgate.json).
+- Sem WordPress no código de execução: o site GitHub Pages funciona apenas com HTML, CSS e JavaScript.
