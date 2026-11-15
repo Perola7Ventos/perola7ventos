@@ -1,0 +1,37 @@
+[
+  {
+    "id": "pg-pop",
+    "platform": "Pop Golden",
+    "category": "Golden Pop Group of the Year",
+    "url": "https://www.popgolden.org/poll/IXAZasKJcl",
+    "candidate": "BTS"
+  },
+  {
+    "id": "pg-group",
+    "platform": "Pop Golden",
+    "category": "Golden K-pop Group of the Year",
+    "url": "https://www.popgolden.org/poll/lbPiBtRSxW",
+    "candidate": "BTS"
+  },
+  {
+    "id": "pg-song",
+    "platform": "Pop Golden",
+    "category": "Golden K-pop Song of the Year",
+    "url": "https://www.popgolden.org/poll/PlgxhWRULC",
+    "candidate": "SWIM"
+  },
+  {
+    "id": "pg-mv",
+    "platform": "Pop Golden",
+    "category": "Golden K-pop Music Video of the Year",
+    "url": "https://www.popgolden.org/poll/nRpqTGuvBZ",
+    "candidate": "SWIM"
+  },
+  {
+    "id": "pg-record",
+    "platform": "Pop Golden",
+    "category": "Golden Korean Record of the Year",
+    "url": "https://www.popgolden.org/poll/nRLdamSUJO",
+    "candidate": "Into the Sun"
+  }
+]
