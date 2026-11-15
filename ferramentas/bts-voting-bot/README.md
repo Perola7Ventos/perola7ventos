@@ -30,4 +30,11 @@ Os estados possíveis são `disponivel`, `selecionado`, `submetido_nao_confirmad
 
 ## GitHub Actions
 Executar **BTS Voting Bot** em Actions > Run workflow e selecionar modo e votação.
-Os agendamentos usam `probe` até os seletores e confirmações serem validados em execução real. Os resultados são independentes do computador pessoal.
+O agendamento executa `vote` diariamente às **08:15 UTC** nas cinco categorias Pop Golden BTS (até 10 de dezembro de 2026). Cada alteração de código executa apenas `probe`. As execuções manuais permitem `probe` ou `vote`. O workflow pode ser cancelado ou desativado em GitHub Actions. Os resultados não dependem do computador pessoal.
+
+## Validação de 15/11/2026
+
+- 5/5 categorias selecionadas corretamente no navegador remoto.
+- 5/5 submissões efetuadas e confirmadas pela Pop Golden, com HTTP 200 em `/poll/voting` e aviso `VOTE SUBMITTED`.
+- Histórico de execuções em `https://github.com/Perola7Ventos/perola7ventos/actions/workflows/bts-voting-bot.yml`.
+- Fanplus e FANNSTAR ainda não estão ligados a este motor.
