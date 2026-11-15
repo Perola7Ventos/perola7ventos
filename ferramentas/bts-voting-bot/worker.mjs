@@ -114,6 +114,10 @@ if(process.env.GITHUB_ACTIONS==='true' && process.env.GITHUB_EVENT_NAME==='sched
 }
 const browser=due.length?await chromium.launch({headless:true,args:['--disable-dev-shm-usage']}):null;
 for(const c of jobs){
+  if(mode==='probe'&&(!c.enabled||!c.candidate)){
+    all.push({id:c.id,status:'sem_candidato_definido',skipped:true,mode,endsAt:c.endsAt});
+    continue;
+  }
   const reason=mode==='vote'?gate(c):null;
   if(reason){
     all.push({id:c.id,status:reason,skipped:true,mode,endsAt:c.endsAt});
