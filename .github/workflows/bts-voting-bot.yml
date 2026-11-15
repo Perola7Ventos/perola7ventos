@@ -54,8 +54,8 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Run
         env:
-          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'push' && 'vote' || 'probe') }}
-          POLL: ${{ github.event_name == 'workflow_dispatch' && inputs.poll || (github.event_name == 'push' && 'pg-group' || 'all') }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'schedule' && 'vote' || 'probe') }}
+          POLL: ${{ github.event_name == 'workflow_dispatch' && inputs.poll || 'all' }}
           HEADLESS: "true"
         run: npm run run
       - name: Export logs and screenshots
