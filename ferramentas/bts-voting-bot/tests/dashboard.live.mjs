@@ -23,7 +23,33 @@ for(let attempt=1;attempt<=6;attempt++){
     const check={attempt,httpStatus:response?.status()??null,...info,consoleErrors:consoleErrors.slice(0,5),failed:failed.slice(0,6)};
     reports.push(check);
     console.log(JSON.stringify(check));
-    if(check.confirmed && Number(check.confirmed)>=6 && check.connection==='ok' && check.linkCount>=6 && check.cardCount===9){passed=true;break;}
+    if(check.confirmed && Number(check.confirmed)>=6 && check.connection==='ok' && check.linkCount>=6 && check.cardCount===9){
+      // O clique tem de provocar pedidos HTTP novos e uma indicação visual distinta.
+      const button=page.getByRole('button',{name:'Atualizar agora'});
+      const beforeCount=Number(await page.locator('#bot-sync-status').getAttribute('data-refresh-count')||0);
+      const requests=[];
+      const requestHandler=req=>{
+        if(req.url().includes('/warehouse-0613/bts/votacoes/data/status.json'))requests.push(req.url());
+      };
+      page.on('request',requestHandler);
+      try{
+        await button.click();
+        await page.waitForFunction(old=>{
+          const label=document.getElementById('bot-sync-status');
+          return Number(label?.dataset.refreshCount||0)>old && /Verificado às/.test(label.textContent||'');
+        },beforeCount,{timeout:25000});
+        const after=await page.evaluate(()=>({
+          feedback:document.getElementById('bot-sync-status')?.textContent,
+          state:document.getElementById('bot-sync-status')?.dataset.state,
+          button:document.getElementById('bot-sync-refresh')?.textContent,
+          count:document.getElementById('count-done')?.textContent
+        }));
+        check.manualRefresh={requests:requests.length,...after};
+        console.log(JSON.stringify({manualRefresh:check.manualRefresh}));
+        if(requests.length>=1&&after.state==='ok'&&after.button.trim()==='Atualizar agora'&&Number(after.count)>=6)passed=true;
+      }finally{page.off('request',requestHandler);}
+      if(passed)break;
+    }
   }catch(e){reports.push({attempt,error:String(e)});console.error('attempt '+attempt+': '+e);}
   finally{page.off('console',errorHandler);page.off('requestfailed',rejectHandler);}
   if(attempt<6)await page.waitForTimeout(12000);
