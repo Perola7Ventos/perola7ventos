@@ -2,8 +2,8 @@ import { readFile, writeFile, mkdir, copyFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root=path.dirname(fileURLToPath(import.meta.url));
-const base=path.resolve(root,'../../warehouse-0613/bts/votacoes');
+const root=process.env.BOT_TEST_ROOT || path.dirname(fileURLToPath(import.meta.url));
+const base=process.env.BOT_TEST_SITE || path.resolve(root,'../../warehouse-0613/bts/votacoes');
 const dataPath=path.join(base,'data/status.json');
 const result=JSON.parse(await readFile(path.join(root,'artifacts/results.json'),'utf8'));
 if(result.mode!=='vote'){
