@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T20:23:59.748Z",
+  "updatedAt": "2026-11-15T23:56:44.510Z",
   "totalConfirmed": 6,
   "campaigns": {
     "shine-v": {
       "confirmedCount": 0,
-      "lastAttemptAt": "2026-11-15T20:23:56.595Z",
+      "lastAttemptAt": "2026-11-15T23:56:41.179Z",
       "lastConfirmedAt": null,
       "lastReceipt": null,
       "lastStatus": "requer_validacao_de_interface",
@@ -104,6 +104,14 @@
     }
   },
   "recentRuns": [
+    {
+      "id": "shine-v",
+      "status": "requer_validacao_de_interface",
+      "at": "2026-11-15T23:56:41.179Z",
+      "confirmation": null,
+      "receipt": null,
+      "runId": "43777463671"
+    },
     {
       "id": "shine-v",
       "status": "requer_validacao_de_interface",
