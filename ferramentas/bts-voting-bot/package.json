@@ -6,9 +6,10 @@
   "description": "Playwright worker for the BTS voting dashboard",
   "scripts": {
     "test": "node --test",
-    "run": "node bot.mjs",
-    "probe": "node bot.mjs --mode=probe",
-    "vote": "node bot.mjs --mode=vote"
+    "run": "node worker.mjs",
+    "probe": "node worker.mjs --mode=probe",
+    "vote": "node worker.mjs --mode=vote",
+    "sync": "node sync.mjs"
   },
   "dependencies": {
     "playwright": "^1.57.0"
