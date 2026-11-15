@@ -1,0 +1,68 @@
+name: BTS Voting Bot
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "probe (diagnóstico) ou vote (votação)"
+        type: choice
+        options:
+          - probe
+          - vote
+        default: probe
+      poll:
+        description: "Campanha"
+        type: choice
+        options:
+          - all
+          - pg-pop
+          - pg-group
+          - pg-song
+          - pg-mv
+          - pg-record
+        default: all
+  schedule:
+    - cron: "15 8 * * *"
+  push:
+    paths:
+      - "ferramentas/bts-voting-bot/**"
+      - ".github/workflows/bts-voting-bot.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bts-voting-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    name: Playwright browser worker
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: ferramentas/bts-voting-bot
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Node dependencies
+        run: npm install --no-audit --no-fund
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run
+        env:
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'probe' }}
+          POLL: ${{ github.event_name == 'workflow_dispatch' && inputs.poll || 'all' }}
+          HEADLESS: "true"
+        run: npm run run
+      - name: Export logs and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bts-voting-${{ github.run_id }}
+          path: ferramentas/bts-voting-bot/artifacts/
+          if-no-files-found: warn
+          retention-days: 14
