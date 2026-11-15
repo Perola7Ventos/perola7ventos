@@ -120,14 +120,6 @@ for(const c of chosen){
     entry.http=nav?.status()||null;
     await page.waitForTimeout(2500);
     entry.before=await snapshot(page,name);
-    if(mode==='probe'){
-      await writeFile(path.join(out,c.id+'.html'),await page.content());
-      entry.domSample=await page.evaluate(candidate=>{
-        const wanted=candidate.toLowerCase();
-        const nodes=Array.from(document.querySelectorAll('body *')).filter(el=>el.children.length===0 && el.textContent?.trim().toLowerCase()===wanted).slice(0,8);
-        return {candidate:nodes.map(el=>el.parentElement?.parentElement?.outerHTML.slice(0,1300)),radios:Array.from(document.querySelectorAll('input[type="radio"]')).slice(0,8).map(el=>el.outerHTML)};
-      },name);
-    }
     entry.voteButton=Boolean(await voteButton(page));
     if(mode==='probe'){
       entry.previewSelection=await pick(page,name);
