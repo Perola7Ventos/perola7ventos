@@ -1,40 +1,57 @@
 # BTS Voting Bot (Playwright)
 
-Módulo independente, sem alterações ao HTML do BTS Voting Center.
+**Repositório:** Perola7Ventos/perola7ventos
 
-## Estado
-- Motor Playwright instalado em GitHub Actions.
-- Campanhas Pop Golden em `campaigns.json`: candidato configurável por categoria.
-- `probe`: abre páginas, identifica opções e botão de voto, recolhe diagnóstico.
-- `vote`: seleciona candidato, confirma que ficou selecionado, tenta submeter e regista a resposta.
-- Supervisão humana: seleção explícita do modo na execução manual; logs e artefactos de cada execução; o workflow pode ser desativado a qualquer momento.
-- **Sem resultados inventados**: um clique só não é contabilizado como voto confirmado.
+## Organização
 
-## Execução
-```sh
+- **Voting Center:** `warehouse-0613/bts/votacoes/index.html`
+- **Estado partilhado:** `warehouse-0613/bts/votacoes/data/status.json`
+- **Comprovativos permanentes:** `warehouse-0613/bts/votacoes/certificados/<campanha>/<timestamp>.jpg` e respetivo `.json`
+- **Motor:** `ferramentas/bts-voting-bot/worker.mjs`
+- **Sincronização:** `ferramentas/bts-voting-bot/sync.mjs`
+- **Campanhas:** `ferramentas/bts-voting-bot/campaigns.json`
+- **Automação remota:** `.github/workflows/bts-voting-bot.yml`
+
+## Horários operacionais
+
+- Pop Golden: um ciclo diário às 08:15 UTC, com distribuição de carga de 0–11 minutos; no máximo uma tentativa registada por categoria em cada dia de Portugal.
+- Shining: diagnóstico a cada duas horas (minuto 31 UTC), com distribuição operacional de 0–11 minutos. **A submissão Shining ainda não está validada**; não contar os diagnósticos como votos.
+- As datas de fim são individuais. Após a data `endsAt`, a categoria não volta a ser submetida.
+- O cron pode sofrer atrasos ou perdas de execução em GitHub Actions; não oferece temporização garantida.
+- Candidatos não definidos: `pg-artist` (Jin / j-hope) e `shine-men` (V / Jungkook / Jimin / Jin). O motor não escolhe arbitrariamente.
+- Não estão incluídos Mnet, KDOL, Fanplus nem FANNSTAR.
+
+## Comprovativos e contagem
+
+Só incrementamos `confirmedCount` quando a página apresenta uma **confirmação de voto** após a submissão e a respetiva imagem é capturada. O ficheiro JSON inclui campanha, candidato, data, resposta HTTP e ID da execução. Trata-se de **comprovativo técnico**, não de certificado oficial da entidade organizadora.
+
+A execução `probe` não submete votos nem incrementa contadores.
+
+O Voting Center lê o JSON público do ramo `main` em GitHub e apresenta contagens por campanha e ligação aos comprovativos. Não mostra votos efetuados fora deste bot.
+
+## Operação
+
+GitHub → Actions → BTS Voting Bot → Run workflow:
+- `mode: probe` para testar
+- `mode: vote` para uma submissão
+- `group: all | popgolden | shining`
+- `poll` para a categoria pretendida
+
+## Testes
+
+```bash
 npm install
+npm test
 npx playwright install chromium
 npm run probe
-npm run vote -- --poll=pg-group
 ```
 
-### Variáveis/argumentos
-- `--mode=probe|vote` (ou `MODE`)
-- `--poll=all|pg-pop|pg-group|pg-song|pg-mv|pg-record` (ou `POLL`)
-- `--candidate=NAME` para alterar o candidato de uma execução (com um único poll).
-- `--headless=false` para inspeção visual local.
+Os comprovativos são guardados em GitHub e as capturas de diagnóstico ficam também nos Artifacts durante 14 dias.
 
-## Resultados
-`artifacts/results.json`, capturas em `artifacts/`, e resumo no GitHub Actions.
-Os estados possíveis são `disponivel`, `selecionado`, `submetido_nao_confirmado`, `confirmado`, `erro` e `indisponivel`.
+## Prazos e fontes
 
-## GitHub Actions
-Executar **BTS Voting Bot** em Actions > Run workflow e selecionar modo e votação.
-O agendamento executa `vote` diariamente às **08:15 UTC** nas cinco categorias Pop Golden BTS (até 10 de dezembro de 2026). Cada alteração de código executa apenas `probe`. As execuções manuais permitem `probe` ou `vote`. O workflow pode ser cancelado ou desativado em GitHub Actions. Os resultados não dependem do computador pessoal.
+- Pop Golden: 10 dezembro 2026; hora específica não confirmada.
+- Shining Most Handsome Kpop Idols: 30 novembro 2026, 12:00 EST.
+- Shining Most Handsome Men: 31 dezembro 2026, 12:00 EST, sujeito a reconfirmação.
 
-## Validação de 15/11/2026
-
-- 5/5 categorias selecionadas corretamente no navegador remoto.
-- 5/5 submissões efetuadas e confirmadas pela Pop Golden, com HTTP 200 em `/poll/voting` e aviso `VOTE SUBMITTED`.
-- Histórico de execuções em `https://github.com/Perola7Ventos/perola7ventos/actions/workflows/bts-voting-bot.yml`.
-- Fanplus e FANNSTAR ainda não estão ligados a este motor.
+Consultar `campaigns.json` e os URLs oficiais para alterações.
