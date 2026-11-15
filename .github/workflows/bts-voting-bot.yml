@@ -4,32 +4,30 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "probe (diagnóstico) ou vote (votação)"
+        description: "Diagnóstico (probe) ou submissão (vote)"
         type: choice
-        options:
-          - probe
-          - vote
+        options: [probe, vote]
         default: probe
+      group:
+        description: "Plataforma"
+        type: choice
+        options: [all, popgolden, shining]
+        default: all
       poll:
         description: "Campanha"
         type: choice
-        options:
-          - all
-          - pg-pop
-          - pg-group
-          - pg-song
-          - pg-mv
-          - pg-record
+        options: [all, shine-v, shine-men, pg-pop, pg-artist, pg-group, pg-song, pg-mv, pg-record, pg-hiphop]
         default: all
   schedule:
     - cron: "15 8 * * *"
+    - cron: "31 */2 * * *"
   push:
     paths:
       - "ferramentas/bts-voting-bot/**"
       - ".github/workflows/bts-voting-bot.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: bts-voting-bot
@@ -37,28 +35,54 @@ concurrency:
 
 jobs:
   run:
-    name: Playwright browser worker
+    name: Playwright - votações e comprovativos
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     defaults:
       run:
         working-directory: ferramentas/bts-voting-bot
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Install Node dependencies
+      - name: Install packages
         run: npm install --no-audit --no-fund
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
-      - name: Run
+      - name: Execute selected campaigns
         env:
-          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'schedule' && 'vote' || 'probe') }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'schedule' && github.event.schedule == '15 8 * * *' && 'vote' || 'probe') }}
+          RUN_GROUP: ${{ github.event_name == 'workflow_dispatch' && inputs.group || (github.event_name == 'schedule' && github.event.schedule == '15 8 * * *' && 'popgolden' || (github.event_name == 'schedule' && 'shining' || 'all')) }}
           POLL: ${{ github.event_name == 'workflow_dispatch' && inputs.poll || 'all' }}
           HEADLESS: "true"
         run: npm run run
-      - name: Export logs and screenshots
+      - name: Synchronize results and create receipts
+        if: always()
+        run: |
+          if [ -f artifacts/results.json ]; then
+            npm run sync
+          fi
+      - name: Save verified receipts and status on GitHub
+        if: always()
+        working-directory: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- warehouse-0613/bts/votacoes/data/
+          if [ -d warehouse-0613/bts/votacoes/certificados ]; then
+            git add -A -- warehouse-0613/bts/votacoes/certificados/
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive confirmed votes and update BTS Voting Center"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "No voting receipts or status changes to persist."
+          fi
+      - name: Upload execution diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
