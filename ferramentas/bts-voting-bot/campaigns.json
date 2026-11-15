@@ -1,37 +1,127 @@
 [
   {
+    "id": "shine-v",
+    "platform": "Shining",
+    "category": "Most Handsome Kpop Idols 2026",
+    "url": "https://shiningawards.com/most-handsome-kpop-idols-2026/?nominee=v-bts",
+    "candidate": "V BTS",
+    "enabled": true,
+    "adapter": "shining",
+    "endsAt": "2026-11-30T17:00:00Z",
+    "cooldownMinutes": 75,
+    "source": "https://shiningawards.com/most-handsome-kpop-idols-2026/"
+  },
+  {
+    "id": "shine-men",
+    "platform": "Shining",
+    "category": "Most Handsome Men In The World 2026",
+    "url": "https://shiningawards.com/most-handsome-men-in-the-world-2026/",
+    "candidate": null,
+    "enabled": false,
+    "adapter": "shining",
+    "endsAt": "2026-12-31T17:00:00Z",
+    "cooldownMinutes": 75,
+    "selectionRequired": [
+      "V",
+      "Jungkook",
+      "Jimin",
+      "Jin"
+    ],
+    "source": "https://shiningawards.com/most-handsome-men-in-the-world-2026/"
+  },
+  {
     "id": "pg-pop",
     "platform": "Pop Golden",
     "category": "Golden Pop Group of the Year",
     "url": "https://www.popgolden.org/poll/IXAZasKJcl",
-    "candidate": "BTS"
+    "candidate": "BTS",
+    "enabled": true,
+    "adapter": "popgolden",
+    "endsAt": "2026-12-11T00:00:00Z",
+    "endPrecision": "date_only",
+    "cooldownMinutes": 1440,
+    "source": "https://www.popgolden.org/pop-golden-awards-voting-guide-rules"
+  },
+  {
+    "id": "pg-artist",
+    "platform": "Pop Golden",
+    "category": "Golden K-pop Artist of the Year",
+    "url": "https://www.popgolden.org/poll/dAeCDFucVE",
+    "candidate": null,
+    "enabled": false,
+    "adapter": "popgolden",
+    "endsAt": "2026-12-11T00:00:00Z",
+    "endPrecision": "date_only",
+    "cooldownMinutes": 1440,
+    "source": "https://www.popgolden.org/pop-golden-awards-voting-guide-rules",
+    "selectionRequired": [
+      "Jin",
+      "j-hope"
+    ]
   },
   {
     "id": "pg-group",
     "platform": "Pop Golden",
     "category": "Golden K-pop Group of the Year",
     "url": "https://www.popgolden.org/poll/lbPiBtRSxW",
-    "candidate": "BTS"
+    "candidate": "BTS",
+    "enabled": true,
+    "adapter": "popgolden",
+    "endsAt": "2026-12-11T00:00:00Z",
+    "endPrecision": "date_only",
+    "cooldownMinutes": 1440,
+    "source": "https://www.popgolden.org/pop-golden-awards-voting-guide-rules"
   },
   {
     "id": "pg-song",
     "platform": "Pop Golden",
     "category": "Golden K-pop Song of the Year",
     "url": "https://www.popgolden.org/poll/PlgxhWRULC",
-    "candidate": "SWIM"
+    "candidate": "SWIM",
+    "enabled": true,
+    "adapter": "popgolden",
+    "endsAt": "2026-12-11T00:00:00Z",
+    "endPrecision": "date_only",
+    "cooldownMinutes": 1440,
+    "source": "https://www.popgolden.org/pop-golden-awards-voting-guide-rules"
   },
   {
     "id": "pg-mv",
     "platform": "Pop Golden",
     "category": "Golden K-pop Music Video of the Year",
     "url": "https://www.popgolden.org/poll/nRpqTGuvBZ",
-    "candidate": "SWIM"
+    "candidate": "SWIM",
+    "enabled": true,
+    "adapter": "popgolden",
+    "endsAt": "2026-12-11T00:00:00Z",
+    "endPrecision": "date_only",
+    "cooldownMinutes": 1440,
+    "source": "https://www.popgolden.org/pop-golden-awards-voting-guide-rules"
   },
   {
     "id": "pg-record",
     "platform": "Pop Golden",
     "category": "Golden Korean Record of the Year",
     "url": "https://www.popgolden.org/poll/nRLdamSUJO",
-    "candidate": "Into the Sun"
+    "candidate": "Into the Sun",
+    "enabled": true,
+    "adapter": "popgolden",
+    "endsAt": "2026-12-11T00:00:00Z",
+    "endPrecision": "date_only",
+    "cooldownMinutes": 1440,
+    "source": "https://www.popgolden.org/pop-golden-awards-voting-guide-rules"
+  },
+  {
+    "id": "pg-hiphop",
+    "platform": "Pop Golden",
+    "category": "Golden Hip-Hop Song of the Year",
+    "url": "https://www.popgolden.org/poll/hucsGynWJX",
+    "candidate": "Spaghetti",
+    "enabled": true,
+    "adapter": "popgolden",
+    "endsAt": "2026-12-11T00:00:00Z",
+    "endPrecision": "date_only",
+    "cooldownMinutes": 1440,
+    "source": "https://www.popgolden.org/pop-golden-awards-voting-guide-rules"
   }
 ]
