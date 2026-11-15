@@ -1,0 +1,16 @@
+{
+  "name": "bts-voting-bot",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Playwright worker for the BTS voting dashboard",
+  "scripts": {
+    "test": "node --test",
+    "run": "node bot.mjs",
+    "probe": "node bot.mjs --mode=probe",
+    "vote": "node bot.mjs --mode=vote"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
