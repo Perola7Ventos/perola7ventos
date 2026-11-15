@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T20:22:36.397Z",
+  "updatedAt": "2026-11-15T20:23:59.748Z",
   "totalConfirmed": 6,
   "campaigns": {
     "shine-v": {
       "confirmedCount": 0,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-11-15T20:23:56.595Z",
       "lastConfirmedAt": null,
       "lastReceipt": null,
-      "lastStatus": "sem_execucao",
+      "lastStatus": "requer_validacao_de_interface",
       "endsAt": "2026-11-30T17:00:00Z",
       "enabled": true,
       "candidate": "V BTS",
@@ -104,6 +104,14 @@
     }
   },
   "recentRuns": [
+    {
+      "id": "shine-v",
+      "status": "requer_validacao_de_interface",
+      "at": "2026-11-15T20:23:56.595Z",
+      "confirmation": null,
+      "receipt": null,
+      "runId": "43757809970"
+    },
     {
       "id": "pg-hiphop",
       "status": "confirmado",
