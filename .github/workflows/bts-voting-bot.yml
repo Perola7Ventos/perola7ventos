@@ -50,6 +50,8 @@ jobs:
           node-version: "22"
       - name: Install packages
         run: npm install --no-audit --no-fund
+      - name: Test receipt persistence
+        run: npm test
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Execute selected campaigns
