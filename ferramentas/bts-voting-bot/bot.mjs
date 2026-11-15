@@ -13,9 +13,16 @@ const override=flags.candidate||process.env.CANDIDATE||'';
 const headless=(flags.headless||process.env.HEADLESS||'true')!=='false';
 if(!['probe','vote'].includes(mode))throw Error('Mode must be probe or vote');
 if(override&&poll==='all')throw Error('Choose --poll for candidate override');
-const chosen=campaigns.filter(c=>poll==='all'||c.id===poll);
+const requestedIds=new Set(String(poll).split(',').map(s=>s.trim()));
+const chosen=campaigns.filter(c=>poll==='all'||requestedIds.has(c.id));
 if(!chosen.length||new Set(campaigns.map(c=>c.id)).size!==campaigns.length)throw Error('Invalid campaign configuration');
 await mkdir(out,{recursive:true});
+if(mode==='vote' && Date.now()>=Date.parse('2026-12-11T00:00:00Z')){
+  const result={mode,poll,status:'fora_do_prazo',message:'Campanha 2026 terminada'};
+  await writeFile(path.join(out,'results.json'),JSON.stringify(result,null,2));
+  console.log(result.message);
+  process.exit(0);
+}
 const clean=x=>String(x||'').replace(/\s+/g,' ').trim();
 const escaped=s=>String(s).replace(/[-/\\^$*+?.()|[\]{}]/g,'\\$&');
 const re=s=>new RegExp('^\\s*'+escaped(s)+'\\s*$','i');
