@@ -18,5 +18,4 @@ jobs:
       - name: Verificar todas as ligações internas, ficheiros e âncoras
         run: python3 ferramentas/auditar_site.py --local
       - name: Confirmar HTTP 200 nas páginas e recursos publicados
-        if: github.event_name == 'workflow_run' || github.event_name == 'workflow_dispatch'
         run: python3 ferramentas/auditar_site.py --live
