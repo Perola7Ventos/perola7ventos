@@ -112,7 +112,10 @@ def audit_local():
 
 def audit_live():
     failed = []
-    for route in ROUTES:
+    html_routes = [p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*.html')
+                   if not p.relative_to(ROOT).as_posix().startswith('arquivo/versoes-visuais/')]
+    routes = sorted(set(ROUTES + html_routes))
+    for route in routes:
         url = urljoin(BASE, route)
         result = None
         for attempt in range(2):
@@ -128,7 +131,7 @@ def audit_live():
         print(f"HTTP | {result} | {route or '(início)'}")
         if result != 200:
             failed.append((route, result))
-    print(f"Auditoria HTTP: {len(ROUTES)} recursos, {len(failed)} falhas")
+    print(f"Auditoria HTTP: {len(routes)} recursos, {len(failed)} falhas")
     return not failed
 
 if __name__ == "__main__":
