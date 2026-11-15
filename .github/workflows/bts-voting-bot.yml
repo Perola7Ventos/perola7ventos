@@ -54,6 +54,9 @@ jobs:
         run: npm test
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
+      - name: Verify live Voting Center synchronization
+        if: github.event_name == 'push'
+        run: node tests/dashboard.live.mjs
       - name: Execute selected campaigns
         env:
           MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event_name == 'schedule' && github.event.schedule == '15 8 * * *' && 'vote' || 'probe') }}
