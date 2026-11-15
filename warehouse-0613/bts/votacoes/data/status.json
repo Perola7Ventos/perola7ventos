@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "totalConfirmed": 0,
+  "campaigns": {
+    "shine-v": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-11-30T17:00:00Z",
+      "enabled": true,
+      "candidate": "V BTS",
+      "platform": "Shining"
+    },
+    "shine-men": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-31T17:00:00Z",
+      "enabled": false,
+      "candidate": null,
+      "platform": "Shining"
+    },
+    "pg-pop": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-11T00:00:00Z",
+      "enabled": true,
+      "candidate": "BTS",
+      "platform": "Pop Golden"
+    },
+    "pg-artist": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-11T00:00:00Z",
+      "enabled": false,
+      "candidate": null,
+      "platform": "Pop Golden"
+    },
+    "pg-group": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-11T00:00:00Z",
+      "enabled": true,
+      "candidate": "BTS",
+      "platform": "Pop Golden"
+    },
+    "pg-song": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-11T00:00:00Z",
+      "enabled": true,
+      "candidate": "SWIM",
+      "platform": "Pop Golden"
+    },
+    "pg-mv": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-11T00:00:00Z",
+      "enabled": true,
+      "candidate": "SWIM",
+      "platform": "Pop Golden"
+    },
+    "pg-record": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-11T00:00:00Z",
+      "enabled": true,
+      "candidate": "Into the Sun",
+      "platform": "Pop Golden"
+    },
+    "pg-hiphop": {
+      "confirmedCount": 0,
+      "lastAttemptAt": null,
+      "lastConfirmedAt": null,
+      "lastReceipt": null,
+      "lastStatus": "sem_execucao",
+      "endsAt": "2026-12-11T00:00:00Z",
+      "enabled": true,
+      "candidate": "Spaghetti",
+      "platform": "Pop Golden"
+    }
+  },
+  "recentRuns": [],
+  "notice": "Estado partilhado das votações geridas pelo bot. Comprovativos são capturas de confirmação, não certificados oficiais."
+}
