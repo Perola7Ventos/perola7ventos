@@ -49,6 +49,21 @@ async function voteButton(page){
   return null;
 }
 async function pick(page,candidate){
+  // Pop Golden: cada opção é um .card-poll que guarda o ID num input oculto.
+  // Uma seleção válida aplica a classe .selected ao cartão, não a um input radio.
+  const cards=page.locator('.option-container-details .card-poll').filter({
+    has:page.locator('.title-div p').filter({hasText:new RegExp(escaped(candidate),'i')})
+  });
+  const cardCount=await cards.count();
+  for(let i=0;i<Math.min(cardCount,12);i++){
+    const card=cards.nth(i);
+    if(!await card.isVisible().catch(()=>false))continue;
+    const title=await card.locator('.title-div p').first().innerText().catch(()=>null);
+    if(!title||!title.toLowerCase().includes(candidate.toLowerCase()))continue;
+    await card.click({timeout:4500});
+    await page.waitForTimeout(300);
+    if(await card.evaluate(el=>el.classList.contains('selected')).catch(()=>false))return true;
+  }
   const candidates=[page.getByRole('radio',{name:re(candidate)}),page.getByLabel(re(candidate)),page.locator('label').filter({hasText:re(candidate)}),page.getByText(re(candidate))];
   for(const loc of candidates){
     const n=Math.min(await loc.count().catch(()=>0),15);
@@ -108,7 +123,8 @@ for(const c of chosen){
     }
     entry.voteButton=Boolean(await voteButton(page));
     if(mode==='probe'){
-      entry.status=(entry.before.matches.length||entry.before.candidateLabels)?'disponivel':'indisponivel';
+      entry.previewSelection=await pick(page,name);
+      entry.status=entry.previewSelection?'selecionado':'indisponivel';
     }else if(!await pick(page,name)){
       entry.status='erro';entry.error='Não foi possível confirmar a seleção do candidato';
     }else{
