@@ -1,0 +1,37 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtemp, mkdir, writeFile, readFile, access } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
+
+const script=join(dirname(fileURLToPath(import.meta.url)),'../sync.mjs');
+test('certified confirmation creates a persistent image, manifest and counter exactly once',async()=>{
+  const root=await mkdtemp(join(tmpdir(),'bts-bot-test-'));
+  const site=join(root,'site');
+  const artifacts=join(root,'artifacts');
+  await mkdir(join(site,'data'),{recursive:true});
+  await mkdir(artifacts,{recursive:true});
+  const campaign={id:'pg-group',platform:'Pop Golden',candidate:'BTS',category:'Golden Group',url:'https://www.popgolden.org/poll/example',enabled:true,endsAt:'2026-12-11T00:00:00Z'};
+  await writeFile(join(root,'campaigns.json'),JSON.stringify([campaign]));
+  await writeFile(join(site,'data/status.json'),JSON.stringify({schemaVersion:1,campaigns:{'pg-group':{confirmedCount:0}},totalConfirmed:0,recentRuns:[]}));
+  const stamp='2026-11-15T19:10:00.000Z';
+  const result={mode:'vote',group:'popgolden',results:[{id:'pg-group',status:'confirmado',candidate:'BTS',attemptedAt:stamp,finishedAt:'2026-11-15T19:10:03.000Z',confirmationText:'VOTE SUBMITTED',submitResponses:[{httpStatus:200,path:'https://www.popgolden.org/poll/voting'}]}]};
+  await writeFile(join(artifacts,'results.json'),JSON.stringify(result));
+  await writeFile(join(artifacts,'pg-group.jpg'),Buffer.from('mock screenshot, fixture only'));
+  const env={...process.env,BOT_TEST_ROOT:root,BOT_TEST_SITE:site,GITHUB_RUN_ID:'test-only'};
+  const run=()=>spawnSync(process.execPath,[script],{env,encoding:'utf8'});
+  const first=run();
+  assert.equal(first.status,0,first.stderr);
+  let s=JSON.parse(await readFile(join(site,'data/status.json'),'utf8'));
+  assert.equal(s.campaigns['pg-group'].confirmedCount,1);
+  assert.equal(s.totalConfirmed,1);
+  assert.match(s.campaigns['pg-group'].lastReceipt,/^certificados\/pg-group\/.+\.jpg$/);
+  await access(join(site,s.campaigns['pg-group'].lastReceipt));
+  const second=run();
+  assert.equal(second.status,0,second.stderr);
+  s=JSON.parse(await readFile(join(site,'data/status.json'),'utf8'));
+  assert.equal(s.campaigns['pg-group'].confirmedCount,1);
+  assert.equal(s.totalConfirmed,1);
+});
