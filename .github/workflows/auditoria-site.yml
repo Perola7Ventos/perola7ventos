@@ -1,0 +1,22 @@
+name: P0 - Auditoria do site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+permissions:
+  contents: read
+jobs:
+  auditoria:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar todas as ligações internas, ficheiros e âncoras
+        run: python3 ferramentas/auditar_site.py --local
+      - name: Confirmar HTTP 200 nas páginas e recursos publicados
+        if: github.event_name == 'workflow_run' || github.event_name == 'workflow_dispatch'
+        run: python3 ferramentas/auditar_site.py --live
