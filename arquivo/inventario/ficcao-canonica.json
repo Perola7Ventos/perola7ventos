@@ -217,9 +217,101 @@
           "n": 5,
           "slug": "a-rua-das-duas-horas-capitulo-5",
           "status": "missing"
+        },
+        {
+          "n": 6,
+          "slug": "a-rua-das-duas-horas-capitulo-6",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 7,
+          "slug": "a-rua-das-duas-horas-capitulo-7",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 8,
+          "slug": "a-rua-das-duas-horas-capitulo-8",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 9,
+          "slug": "a-rua-das-duas-horas-capitulo-9",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 10,
+          "slug": "a-rua-das-duas-horas-capitulo-10",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 11,
+          "slug": "a-rua-das-duas-horas-capitulo-11",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 12,
+          "slug": "a-rua-das-duas-horas-capitulo-12",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 13,
+          "slug": "a-rua-das-duas-horas-capitulo-13",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 14,
+          "slug": "a-rua-das-duas-horas-capitulo-14",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 15,
+          "slug": "a-rua-das-duas-horas-capitulo-15",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 16,
+          "slug": "a-rua-das-duas-horas-capitulo-16",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 17,
+          "slug": "a-rua-das-duas-horas-capitulo-17",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 18,
+          "slug": "a-rua-das-duas-horas-capitulo-18",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 19,
+          "slug": "a-rua-das-duas-horas-capitulo-19",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
+        },
+        {
+          "n": 20,
+          "slug": "a-rua-das-duas-horas-capitulo-20",
+          "status": "complete",
+          "source": "transcricao_publicacao_2026-11-14"
         }
       ],
-      "url": "ficcao/longfics/a-rua-das-duas-horas/"
+      "url": "ficcao/longfics/a-rua-das-duas-horas/",
+      "status": "partial",
+      "recovered_chapters": 15
     },
     {
       "title": "A Cidade que Desaprendeu a Dizer Não",
