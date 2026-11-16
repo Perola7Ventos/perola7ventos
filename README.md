@@ -45,3 +45,14 @@ A [página dos nove fascículos](warehouse-0613/bts/fasciculos/) reconstitui no 
 ## Título definitivo da crackfic
 
 O título único é **Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins?**. A [página canónica](ficcao/cracfics/reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins/) contém o manuscrito integral; as ligações antigas redirecionam para ela. O texto narrativo não foi reescrito.
+
+## Estado atualizado da recuperação de ficções — 15/11/2026
+
+- [Inventário canónico](arquivo/inventario/ficcao-canonica.json): **22 One-Shots** e **4 Longfics**.
+- [Relatório verificável](arquivo/inventario/estado-recuperacao-fics.json): **7 One-Shots com manuscrito integral**, incluindo Reunião Pré-Tour e seis textos de publicações anteriores em conversa.
+- **A Rua das Duas Horas**: capítulos **6–20** recuperados integralmente; capítulos **1–5** com texto original ainda indisponível.
+- As restantes longfics mantêm índices históricos sem textos substitutos. Cada fic aparece numa só categoria conhecida.
+- **10 One-Shots e 2 Longfics** mantidas na secção de classificação original por verificar, para evitar falsos géneros ou duplicação.
+- **A Última Luz da Sala C**: GenFics, por decisão expressa da autora. **A Última Nota Antes do Amanhecer**: GenFics por não apresentar POV de fã.
+- O antigo caminho `ficcao/cracfics/` encaminha agora para a categoria única `echos-of-ink/ink-fiction/one-shots/cracfics/`.
+- A recuperação não é total: **15 One-Shots** e **65 capítulos de Longfics** permanecem sem manuscrito integral recuperado. Não foram reescritos para simular os originais.
