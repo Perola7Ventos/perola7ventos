@@ -17,5 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verificar todas as ligações internas, ficheiros e âncoras
         run: python3 ferramentas/auditar_site.py --local
+      - name: Garantir títulos definitivos, conteúdos e navegação editorial
+        run: python3 ferramentas/validar_identidade.py
       - name: Confirmar HTTP 200 nas páginas e recursos publicados
         run: python3 ferramentas/auditar_site.py --live
