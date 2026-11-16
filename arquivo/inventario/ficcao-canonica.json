@@ -1,0 +1,550 @@
+{
+  "version": 1,
+  "generated": "2026-11-15",
+  "genres": {
+    "fanfics": "FanFics",
+    "cracfics": "CracFics",
+    "fusionfics": "FusionFics",
+    "genfics": "GenFics",
+    "hybridfics": "HybridFics",
+    "crossovers": "Crossovers"
+  },
+  "oneshots": [
+    {
+      "slug": "reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins",
+      "title": "Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins?",
+      "genre": "cracfics",
+      "status": "complete",
+      "url": "ficcao/cracfics/reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-protocolo-das-0317",
+      "title": "O Protocolo das 03:17",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/o-protocolo-das-0317/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "a-livraria-das-estacoes-perdidas",
+      "title": "A Livraria das Estacoes Perdidas",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/a-livraria-das-estacoes-perdidas/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-dia-em-que-ninguem-reconheceu-o-sol",
+      "title": "O Dia em que Ninguém Reconheceu o Sol",
+      "genre": "cracfics",
+      "status": "missing",
+      "url": "ficcao/cracfics/o-dia-em-que-ninguem-reconheceu-o-sol/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-peso-exato-de-uma-despedida",
+      "title": "O Peso Exato de Uma Despedida",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/o-peso-exato-de-uma-despedida/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-lugar-que-ficou-por-ocupar",
+      "title": "O Lugar que Ficou por Ocupar",
+      "genre": "fanfics",
+      "status": "missing",
+      "url": "ficcao/one-shots/o-lugar-que-ficou-por-ocupar/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "relatorio-de-incidente-tempo-7",
+      "title": "Relatório de Incidente: Tempo 7",
+      "genre": "hybridfics",
+      "status": "missing",
+      "url": "ficcao/one-shots/relatorio-de-incidente-tempo-7/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-inventario-das-horas-esquecidas",
+      "title": "O Inventário das Horas Esquecidas",
+      "genre": "crossovers",
+      "status": "missing",
+      "url": "ficcao/one-shots/o-inventario-das-horas-esquecidas/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "arquivo-das-vozes-na-bancada",
+      "title": "Arquivo das Vozes Na Bancada",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/arquivo-das-vozes-na-bancada/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "a-oitava-corrente",
+      "title": "A Oitava Corrente",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/a-oitava-corrente/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "a-ultima-luz-da-sala-c",
+      "title": "A Última Luz da Sala C",
+      "genre": "genfics",
+      "status": "missing",
+      "url": "ficcao/one-shots/a-ultima-luz-da-sala-c/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "a-greve-geral-dos-guarda-chuvas",
+      "title": "A Greve Geral dos Guarda Chuvas",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/a-greve-geral-dos-guarda-chuvas/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-carteiro-de-1899",
+      "title": "O Carteiro de 1899",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/o-carteiro-de-1899/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-trilho-fora-do-mapa",
+      "title": "O Trilho Fora do Mapa",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/o-trilho-fora-do-mapa/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "ata-zero-o-dia-em-falta",
+      "title": "Ata Zero o Dia em Falta",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/ata-zero-o-dia-em-falta/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "o-relogio-da-livraria-impossivel",
+      "title": "O Relogio da Livraria Impossivel",
+      "genre": null,
+      "status": "missing",
+      "url": "ficcao/one-shots/o-relogio-da-livraria-impossivel/",
+      "source": "wordpress"
+    },
+    {
+      "slug": "a-ultima-nota-antes-do-amanhecer",
+      "title": "A Última Nota Antes do Amanhecer",
+      "genre": "fanfics",
+      "status": "complete",
+      "url": "ficcao/one-shots/a-ultima-nota-antes-do-amanhecer/",
+      "source": "chat_publicacao"
+    },
+    {
+      "slug": "a-auditoria-internacional-das-plantas-de-plastico",
+      "title": "A Auditoria Internacional das Plantas de Plástico",
+      "genre": "cracfics",
+      "status": "complete",
+      "url": "ficcao/one-shots/a-auditoria-internacional-das-plantas-de-plastico/",
+      "source": "chat_publicacao"
+    },
+    {
+      "slug": "o-elevador-que-parava-em-1592",
+      "title": "O Elevador que Parava em 1592",
+      "genre": "fusionfics",
+      "status": "complete",
+      "url": "ficcao/one-shots/o-elevador-que-parava-em-1592/",
+      "source": "chat_publicacao"
+    },
+    {
+      "slug": "o-clube-das-cartas-sem-destinatario",
+      "title": "O Clube das Cartas Sem Destinatário",
+      "genre": "genfics",
+      "status": "complete",
+      "url": "ficcao/one-shots/o-clube-das-cartas-sem-destinatario/",
+      "source": "chat_publicacao"
+    },
+    {
+      "slug": "manual-de-instrucoes-para-uma-segunda-feira",
+      "title": "Manual de Instruções para uma Segunda-Feira",
+      "genre": "hybridfics",
+      "status": "complete",
+      "url": "ficcao/one-shots/manual-de-instrucoes-para-uma-segunda-feira/",
+      "source": "chat_publicacao"
+    },
+    {
+      "slug": "quando-a-livraria-encontrou-o-mapa",
+      "title": "Quando a Livraria Encontrou o Mapa",
+      "genre": "crossovers",
+      "status": "complete",
+      "url": "ficcao/one-shots/quando-a-livraria-encontrou-o-mapa/",
+      "source": "chat_publicacao"
+    }
+  ],
+  "longfics": [
+    {
+      "title": "A Rua das Duas Horas",
+      "slug": "a-rua-das-duas-horas",
+      "genre": "fusionfics",
+      "chapters": [
+        {
+          "n": 1,
+          "slug": "a-rua-das-duas-horas",
+          "status": "missing"
+        },
+        {
+          "n": 2,
+          "slug": "a-rua-das-duas-horas-capitulo-2",
+          "status": "missing"
+        },
+        {
+          "n": 3,
+          "slug": "a-rua-das-duas-horas-capitulo-3",
+          "status": "missing"
+        },
+        {
+          "n": 4,
+          "slug": "a-rua-das-duas-horas-capitulo-4",
+          "status": "missing"
+        },
+        {
+          "n": 5,
+          "slug": "a-rua-das-duas-horas-capitulo-5",
+          "status": "missing"
+        }
+      ],
+      "url": "ficcao/longfics/a-rua-das-duas-horas/"
+    },
+    {
+      "title": "A Cidade que Desaprendeu a Dizer Não",
+      "slug": "a-cidade-que-desaprendeu-a-dizer-nao",
+      "genre": null,
+      "chapters": [
+        {
+          "n": 1,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao",
+          "status": "missing"
+        },
+        {
+          "n": 2,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-2",
+          "status": "missing"
+        },
+        {
+          "n": 3,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-3",
+          "status": "missing"
+        },
+        {
+          "n": 4,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-4",
+          "status": "missing"
+        },
+        {
+          "n": 5,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-5",
+          "status": "missing"
+        },
+        {
+          "n": 6,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-6",
+          "status": "missing"
+        },
+        {
+          "n": 7,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-7",
+          "status": "missing"
+        },
+        {
+          "n": 8,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-8",
+          "status": "missing"
+        },
+        {
+          "n": 9,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-9",
+          "status": "missing"
+        },
+        {
+          "n": 10,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-10",
+          "status": "missing"
+        },
+        {
+          "n": 11,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-11",
+          "status": "missing"
+        },
+        {
+          "n": 12,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-12",
+          "status": "missing"
+        },
+        {
+          "n": 13,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-13",
+          "status": "missing"
+        },
+        {
+          "n": 14,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-14",
+          "status": "missing"
+        },
+        {
+          "n": 15,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-15",
+          "status": "missing"
+        },
+        {
+          "n": 16,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-16",
+          "status": "missing"
+        },
+        {
+          "n": 17,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-17",
+          "status": "missing"
+        },
+        {
+          "n": 18,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-18",
+          "status": "missing"
+        },
+        {
+          "n": 19,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-19",
+          "status": "missing"
+        },
+        {
+          "n": 20,
+          "slug": "a-cidade-que-desaprendeu-a-dizer-nao-capitulo-20",
+          "status": "missing"
+        }
+      ],
+      "url": "ficcao/longfics/a-cidade-que-desaprendeu-a-dizer-nao/"
+    },
+    {
+      "title": "O Ponto Cego do Mapa",
+      "slug": "o-ponto-cego-do-mapa",
+      "genre": null,
+      "chapters": [
+        {
+          "n": 1,
+          "slug": "o-ponto-cego-do-mapa",
+          "status": "missing"
+        },
+        {
+          "n": 2,
+          "slug": "o-ponto-cego-do-mapa-capitulo-2",
+          "status": "missing"
+        },
+        {
+          "n": 3,
+          "slug": "o-ponto-cego-do-mapa-capitulo-3",
+          "status": "missing"
+        },
+        {
+          "n": 4,
+          "slug": "o-ponto-cego-do-mapa-capitulo-4",
+          "status": "missing"
+        },
+        {
+          "n": 5,
+          "slug": "o-ponto-cego-do-mapa-capitulo-5",
+          "status": "missing"
+        },
+        {
+          "n": 6,
+          "slug": "o-ponto-cego-do-mapa-capitulo-6",
+          "status": "missing"
+        },
+        {
+          "n": 7,
+          "slug": "o-ponto-cego-do-mapa-capitulo-7",
+          "status": "missing"
+        },
+        {
+          "n": 8,
+          "slug": "o-ponto-cego-do-mapa-capitulo-8",
+          "status": "missing"
+        },
+        {
+          "n": 9,
+          "slug": "o-ponto-cego-do-mapa-capitulo-9",
+          "status": "missing"
+        },
+        {
+          "n": 10,
+          "slug": "o-ponto-cego-do-mapa-capitulo-10",
+          "status": "missing"
+        },
+        {
+          "n": 11,
+          "slug": "o-ponto-cego-do-mapa-capitulo-11",
+          "status": "missing"
+        },
+        {
+          "n": 12,
+          "slug": "o-ponto-cego-do-mapa-capitulo-12",
+          "status": "missing"
+        },
+        {
+          "n": 13,
+          "slug": "o-ponto-cego-do-mapa-capitulo-13",
+          "status": "missing"
+        },
+        {
+          "n": 14,
+          "slug": "o-ponto-cego-do-mapa-capitulo-14",
+          "status": "missing"
+        },
+        {
+          "n": 15,
+          "slug": "o-ponto-cego-do-mapa-capitulo-15",
+          "status": "missing"
+        },
+        {
+          "n": 16,
+          "slug": "o-ponto-cego-do-mapa-capitulo-16",
+          "status": "missing"
+        },
+        {
+          "n": 17,
+          "slug": "o-ponto-cego-do-mapa-capitulo-17",
+          "status": "missing"
+        },
+        {
+          "n": 18,
+          "slug": "o-ponto-cego-do-mapa-capitulo-18",
+          "status": "missing"
+        },
+        {
+          "n": 19,
+          "slug": "o-ponto-cego-do-mapa-capitulo-19",
+          "status": "missing"
+        },
+        {
+          "n": 20,
+          "slug": "o-ponto-cego-do-mapa-capitulo-20",
+          "status": "missing"
+        }
+      ],
+      "url": "ficcao/longfics/o-ponto-cego-do-mapa/"
+    },
+    {
+      "title": "Departamento de Autorizações Impossíveis",
+      "slug": "departamento-de-autorizacoes-impossiveis",
+      "genre": "cracfics",
+      "chapters": [
+        {
+          "n": 1,
+          "slug": "departamento-de-autorizacoes-impossiveis",
+          "status": "missing"
+        },
+        {
+          "n": 2,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-2",
+          "status": "missing"
+        },
+        {
+          "n": 3,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-3",
+          "status": "missing"
+        },
+        {
+          "n": 4,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-4",
+          "status": "missing"
+        },
+        {
+          "n": 5,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-5",
+          "status": "missing"
+        },
+        {
+          "n": 6,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-6",
+          "status": "missing"
+        },
+        {
+          "n": 7,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-7",
+          "status": "missing"
+        },
+        {
+          "n": 8,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-8",
+          "status": "missing"
+        },
+        {
+          "n": 9,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-9",
+          "status": "missing"
+        },
+        {
+          "n": 10,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-10",
+          "status": "missing"
+        },
+        {
+          "n": 11,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-11",
+          "status": "missing"
+        },
+        {
+          "n": 12,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-12",
+          "status": "missing"
+        },
+        {
+          "n": 13,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-13",
+          "status": "missing"
+        },
+        {
+          "n": 14,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-14",
+          "status": "missing"
+        },
+        {
+          "n": 15,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-15",
+          "status": "missing"
+        },
+        {
+          "n": 16,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-16",
+          "status": "missing"
+        },
+        {
+          "n": 17,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-17",
+          "status": "missing"
+        },
+        {
+          "n": 18,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-18",
+          "status": "missing"
+        },
+        {
+          "n": 19,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-19",
+          "status": "missing"
+        },
+        {
+          "n": 20,
+          "slug": "departamento-de-autorizacoes-impossiveis-capitulo-20",
+          "status": "missing"
+        }
+      ],
+      "url": "ficcao/longfics/departamento-de-autorizacoes-impossiveis/"
+    }
+  ],
+  "notes": "Sem duplicados. Apenas classificações verificadas. Conteúdos indisponíveis assinalados."
+}
