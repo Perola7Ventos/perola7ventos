@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "updated": "2026-11-16",
+  "site": "A Pérola dos Sete Ventos",
+  "sections": [
+    {
+      "slug": "ctrl-chaos",
+      "title": "CTRL + CHAOS"
+    },
+    {
+      "slug": "art-unbound",
+      "title": "ART UNBOUND"
+    },
+    {
+      "slug": "echos-of-ink",
+      "title": "ECHOS OF INK"
+    },
+    {
+      "slug": "curiosity-cabinet",
+      "title": "CURIOSITY CABINET"
+    },
+    {
+      "slug": "warehouse-0613",
+      "title": "WAREHOUSE 0613"
+    },
+    {
+      "slug": "korean-corner",
+      "title": "KOREAN CORNER"
+    },
+    {
+      "slug": "7-purple-seas-loja",
+      "title": "7 PURPLE SEAS"
+    }
+  ],
+  "fiction": {
+    "canonical_title": "Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins?",
+    "canonical_url": "ficcao/cracfics/reuniao-pre-tour-dragoes-raizes-ramen-e-pinguins/",
+    "single_category_per_fic": true,
+    "one_shot_categories": [
+      "fanfics",
+      "genfics",
+      "cracfics",
+      "fusionfics",
+      "hybridfics",
+      "crossovers"
+    ],
+    "longfic_categories": [
+      "fanfics",
+      "genfics",
+      "cracfics",
+      "fusionfics",
+      "hybridfics",
+      "crossovers"
+    ]
+  },
+  "rules": [
+    "Preservar os títulos definitivos",
+    "Nunca reverter o nome de uma fic",
+    "Não inventar corpos de manuscritos",
+    "Não alterar textos recuperados sem instrução"
+  ]
+}

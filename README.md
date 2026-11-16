@@ -56,3 +56,8 @@ O título único é **Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins
 - **A Última Luz da Sala C**: GenFics, por decisão expressa da autora. **A Última Nota Antes do Amanhecer**: GenFics por não apresentar POV de fã.
 - O antigo caminho `ficcao/cracfics/` encaminha agora para a categoria única `echos-of-ink/ink-fiction/one-shots/cracfics/`.
 - A recuperação não é total: **15 One-Shots** e **65 capítulos de Longfics** permanecem sem manuscrito integral recuperado. Não foram reescritos para simular os originais.
+
+
+## Identidade editorial definitiva (16/11/2026)
+
+As sete áreas principais estão reorganizadas como páginas de entrada com conteúdos e destinos existentes. O arquivo [IDENTIDADE_EDITORIAL_CANONICA.json](arquivo/inventario/IDENTIDADE_EDITORIAL_CANONICA.json) fixa nomes e categorias. Manuscritos originais não devem ser trocados por resumos.
