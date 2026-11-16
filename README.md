@@ -1,4 +1,4 @@
-# A Pérola dos Sete Ventos — resgate para GitHub
+# A Pérola dos Sete Ventos — GitHub Pages
 
 Migração de `perola7ventos.wordpress.com`, cujo acesso aos conteúdos foi bloqueado pela suspensão da plataforma em 14/11/2026.
 
@@ -61,3 +61,16 @@ O título único é **Reunião Pré-Tour: Dragões, Raízes, Ramen e… Pinguins
 ## Identidade editorial definitiva (16/11/2026)
 
 As sete áreas principais estão reorganizadas como páginas de entrada com conteúdos e destinos existentes. O arquivo [IDENTIDADE_EDITORIAL_CANONICA.json](arquivo/inventario/IDENTIDADE_EDITORIAL_CANONICA.json) fixa nomes e categorias. Manuscritos originais não devem ser trocados por resumos.
+
+## Estado editorial e técnico — 16/11/2026
+
+- **Sete secções** com páginas de entrada, menu unificado e identidade visual.
+- **19 temas coreanos** com novos textos editoriais e referências externas; **13 fichas BTS** de álbuns/compilações com análises e **7 páginas** de membros.
+- **INK REFLECTIONS**: biblioteca funcional com sete vistas, importação/exportação JSON e armazenamento apenas neste navegador.
+- **Ficção**: 22 One-Shots identificadas, 7 textos completos publicados; 4 longfics identificadas, 15 capítulos integrais recuperados de *A Rua das Duas Horas*.
+- **Fascículos BTS × ARMY**: nove fascículos, 36 páginas documentais originais, com integridade SHA-256 verificada na reconstrução.
+- **Automação de qualidade**: validação de links, recursos, identidade canónica e publicação GitHub Pages.
+- **Limitações restantes**: textos originais de 15 One-Shots e 65 capítulos de longfics não estão presentes no arquivo; a loja não possui catálogo nem checkout ativo. Não substituir obras originais por texto inventado nem apresentar encomendas simuladas.
+- A página inicial e as listas de leitura mostram primeiro os conteúdos efetivamente disponíveis, evitando páginas de erro ou de migração na experiência principal.
+
+Fonte editorial externa: [BIGHIT MUSIC](https://bts.ibighit.com/eng/discography/), [BTS JAPAN OFFICIAL SITE](https://bts-official.jp/discography/), [UNESCO](https://ich.unesco.org/en/state/republic-of-korea-KR?info=elements-on-the-lists) e [VISITKOREA](https://english.visitkorea.or.kr/). As fontes de cada artigo estão assinaladas na respetiva página.
