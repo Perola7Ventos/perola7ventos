@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-15",
+  "repository": "Perola7Ventos/perola7ventos",
+  "site": "https://perola7ventos.github.io/perola7ventos/",
+  "total_one_shots": 22,
+  "one_shots_full": 7,
+  "one_shots_missing_original": [
+    "O Protocolo das 03:17",
+    "A Livraria das Estacoes Perdidas",
+    "O Dia em que Ninguém Reconheceu o Sol",
+    "O Peso Exato de Uma Despedida",
+    "O Lugar que Ficou por Ocupar",
+    "Relatório de Incidente: Tempo 7",
+    "O Inventário das Horas Esquecidas",
+    "Arquivo das Vozes Na Bancada",
+    "A Oitava Corrente",
+    "A Última Luz da Sala C",
+    "A Greve Geral dos Guarda Chuvas",
+    "O Carteiro de 1899",
+    "O Trilho Fora do Mapa",
+    "Ata Zero o Dia em Falta",
+    "O Relogio da Livraria Impossivel"
+  ],
+  "one_shots_genre_pending": [
+    "O Protocolo das 03:17",
+    "A Livraria das Estacoes Perdidas",
+    "O Peso Exato de Uma Despedida",
+    "Arquivo das Vozes Na Bancada",
+    "A Oitava Corrente",
+    "A Greve Geral dos Guarda Chuvas",
+    "O Carteiro de 1899",
+    "O Trilho Fora do Mapa",
+    "Ata Zero o Dia em Falta",
+    "O Relogio da Livraria Impossivel"
+  ],
+  "category_counts": {
+    "fanfics": 1,
+    "cracfics": 3,
+    "fusionfics": 1,
+    "genfics": 3,
+    "hybridfics": 2,
+    "crossovers": 2
+  },
+  "longfic_series": [
+    {
+      "title": "A Rua das Duas Horas",
+      "genre": "fusionfics",
+      "total_chapters": 20,
+      "recovered": 15
+    },
+    {
+      "title": "A Cidade que Desaprendeu a Dizer Não",
+      "genre": "por_verificar",
+      "total_chapters": 20,
+      "recovered": 0
+    },
+    {
+      "title": "O Ponto Cego do Mapa",
+      "genre": "por_verificar",
+      "total_chapters": 20,
+      "recovered": 0
+    },
+    {
+      "title": "Departamento de Autorizações Impossíveis",
+      "genre": "cracfics",
+      "total_chapters": 20,
+      "recovered": 0
+    }
+  ],
+  "editorial_rules": [
+    "uma categoria por fic",
+    "fanfic requer ponto de vista de fã",
+    "manuscritos não recuperados não são substituídos"
+  ],
+  "status": "partial_recovery"
+}
