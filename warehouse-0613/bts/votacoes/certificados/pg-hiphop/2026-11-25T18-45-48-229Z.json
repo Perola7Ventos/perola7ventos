@@ -1,0 +1,23 @@
+{
+  "kind": "comprovativo_tecnico_de_votacao",
+  "officialCertificate": false,
+  "campaignId": "pg-hiphop",
+  "candidate": "Spaghetti",
+  "platform": "Pop Golden",
+  "campaignUrl": "https://www.popgolden.org/poll/hucsGynWJX",
+  "attemptedAt": "2026-11-25T18:45:48.229Z",
+  "finishedAt": "2026-11-25T18:45:54.536Z",
+  "confirmationText": "VOTE SUBMITTED",
+  "submitResponses": [
+    {
+      "httpStatus": 204,
+      "path": "https://www.google-analytics.com/g/collect"
+    },
+    {
+      "httpStatus": 200,
+      "path": "https://www.popgolden.org/poll/voting"
+    }
+  ],
+  "image": "2026-11-25T18-45-48-229Z.jpg",
+  "githubRunId": "45677100891"
+}
