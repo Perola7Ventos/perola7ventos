@@ -1,0 +1,23 @@
+{
+  "kind": "comprovativo_tecnico_de_votacao",
+  "officialCertificate": false,
+  "campaignId": "pg-mv",
+  "candidate": "SWIM",
+  "platform": "Pop Golden",
+  "campaignUrl": "https://www.popgolden.org/poll/nRpqTGuvBZ",
+  "attemptedAt": "2026-11-27T18:20:23.941Z",
+  "finishedAt": "2026-11-27T18:20:30.433Z",
+  "confirmationText": "VOTE SUBMITTED",
+  "submitResponses": [
+    {
+      "httpStatus": 204,
+      "path": "https://www.google-analytics.com/g/collect"
+    },
+    {
+      "httpStatus": 200,
+      "path": "https://www.popgolden.org/poll/voting"
+    }
+  ],
+  "image": "2026-11-27T18-20-23-941Z.jpg",
+  "githubRunId": "46047212321"
+}

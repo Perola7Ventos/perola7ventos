@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T18:45:54.761Z",
-  "totalConfirmed": 36,
+  "updatedAt": "2026-11-27T18:20:43.410Z",
+  "totalConfirmed": 42,
   "campaigns": {
     "shine-v": {
       "confirmedCount": 0,
@@ -26,10 +26,10 @@
       "platform": "Shining"
     },
     "pg-pop": {
-      "confirmedCount": 6,
-      "lastAttemptAt": "2026-11-25T18:45:15.832Z",
-      "lastConfirmedAt": "2026-11-25T18:45:22.505Z",
-      "lastReceipt": "certificados/pg-pop/2026-11-25T18-45-15-832Z.jpg",
+      "confirmedCount": 7,
+      "lastAttemptAt": "2026-11-27T18:20:03.841Z",
+      "lastConfirmedAt": "2026-11-27T18:20:10.868Z",
+      "lastReceipt": "certificados/pg-pop/2026-11-27T18-20-03-841Z.jpg",
       "lastStatus": "confirmado",
       "endsAt": "2026-12-11T00:00:00Z",
       "enabled": true,
@@ -48,10 +48,10 @@
       "platform": "Pop Golden"
     },
     "pg-group": {
-      "confirmedCount": 6,
-      "lastAttemptAt": "2026-11-25T18:45:22.517Z",
-      "lastConfirmedAt": "2026-11-25T18:45:29.037Z",
-      "lastReceipt": "certificados/pg-group/2026-11-25T18-45-22-517Z.jpg",
+      "confirmedCount": 7,
+      "lastAttemptAt": "2026-11-27T18:20:10.880Z",
+      "lastConfirmedAt": "2026-11-27T18:20:17.517Z",
+      "lastReceipt": "certificados/pg-group/2026-11-27T18-20-10-880Z.jpg",
       "lastStatus": "confirmado",
       "endsAt": "2026-12-11T00:00:00Z",
       "enabled": true,
@@ -59,10 +59,10 @@
       "platform": "Pop Golden"
     },
     "pg-song": {
-      "confirmedCount": 6,
-      "lastAttemptAt": "2026-11-25T18:45:29.050Z",
-      "lastConfirmedAt": "2026-11-25T18:45:35.486Z",
-      "lastReceipt": "certificados/pg-song/2026-11-25T18-45-29-050Z.jpg",
+      "confirmedCount": 7,
+      "lastAttemptAt": "2026-11-27T18:20:17.524Z",
+      "lastConfirmedAt": "2026-11-27T18:20:23.933Z",
+      "lastReceipt": "certificados/pg-song/2026-11-27T18-20-17-524Z.jpg",
       "lastStatus": "confirmado",
       "endsAt": "2026-12-11T00:00:00Z",
       "enabled": true,
@@ -70,10 +70,10 @@
       "platform": "Pop Golden"
     },
     "pg-mv": {
-      "confirmedCount": 6,
-      "lastAttemptAt": "2026-11-25T18:45:35.494Z",
-      "lastConfirmedAt": "2026-11-25T18:45:41.853Z",
-      "lastReceipt": "certificados/pg-mv/2026-11-25T18-45-35-494Z.jpg",
+      "confirmedCount": 7,
+      "lastAttemptAt": "2026-11-27T18:20:23.941Z",
+      "lastConfirmedAt": "2026-11-27T18:20:30.433Z",
+      "lastReceipt": "certificados/pg-mv/2026-11-27T18-20-23-941Z.jpg",
       "lastStatus": "confirmado",
       "endsAt": "2026-12-11T00:00:00Z",
       "enabled": true,
@@ -81,10 +81,10 @@
       "platform": "Pop Golden"
     },
     "pg-record": {
-      "confirmedCount": 6,
-      "lastAttemptAt": "2026-11-25T18:45:41.864Z",
-      "lastConfirmedAt": "2026-11-25T18:45:48.221Z",
-      "lastReceipt": "certificados/pg-record/2026-11-25T18-45-41-864Z.jpg",
+      "confirmedCount": 7,
+      "lastAttemptAt": "2026-11-27T18:20:30.442Z",
+      "lastConfirmedAt": "2026-11-27T18:20:36.900Z",
+      "lastReceipt": "certificados/pg-record/2026-11-27T18-20-30-442Z.jpg",
       "lastStatus": "confirmado",
       "endsAt": "2026-12-11T00:00:00Z",
       "enabled": true,
@@ -92,10 +92,10 @@
       "platform": "Pop Golden"
     },
     "pg-hiphop": {
-      "confirmedCount": 6,
-      "lastAttemptAt": "2026-11-25T18:45:48.229Z",
-      "lastConfirmedAt": "2026-11-25T18:45:54.536Z",
-      "lastReceipt": "certificados/pg-hiphop/2026-11-25T18-45-48-229Z.jpg",
+      "confirmedCount": 7,
+      "lastAttemptAt": "2026-11-27T18:20:36.910Z",
+      "lastConfirmedAt": "2026-11-27T18:20:43.232Z",
+      "lastReceipt": "certificados/pg-hiphop/2026-11-27T18-20-36-910Z.jpg",
       "lastStatus": "confirmado",
       "endsAt": "2026-12-11T00:00:00Z",
       "enabled": true,
@@ -104,6 +104,54 @@
     }
   },
   "recentRuns": [
+    {
+      "id": "pg-hiphop",
+      "status": "confirmado",
+      "at": "2026-11-27T18:20:36.910Z",
+      "confirmation": "VOTE SUBMITTED",
+      "receipt": "certificados/pg-hiphop/2026-11-27T18-20-36-910Z.jpg",
+      "runId": "46047212321"
+    },
+    {
+      "id": "pg-record",
+      "status": "confirmado",
+      "at": "2026-11-27T18:20:30.442Z",
+      "confirmation": "VOTE SUBMITTED",
+      "receipt": "certificados/pg-record/2026-11-27T18-20-30-442Z.jpg",
+      "runId": "46047212321"
+    },
+    {
+      "id": "pg-mv",
+      "status": "confirmado",
+      "at": "2026-11-27T18:20:23.941Z",
+      "confirmation": "VOTE SUBMITTED",
+      "receipt": "certificados/pg-mv/2026-11-27T18-20-23-941Z.jpg",
+      "runId": "46047212321"
+    },
+    {
+      "id": "pg-song",
+      "status": "confirmado",
+      "at": "2026-11-27T18:20:17.524Z",
+      "confirmation": "VOTE SUBMITTED",
+      "receipt": "certificados/pg-song/2026-11-27T18-20-17-524Z.jpg",
+      "runId": "46047212321"
+    },
+    {
+      "id": "pg-group",
+      "status": "confirmado",
+      "at": "2026-11-27T18:20:10.880Z",
+      "confirmation": "VOTE SUBMITTED",
+      "receipt": "certificados/pg-group/2026-11-27T18-20-10-880Z.jpg",
+      "runId": "46047212321"
+    },
+    {
+      "id": "pg-pop",
+      "status": "confirmado",
+      "at": "2026-11-27T18:20:03.841Z",
+      "confirmation": "VOTE SUBMITTED",
+      "receipt": "certificados/pg-pop/2026-11-27T18-20-03-841Z.jpg",
+      "runId": "46047212321"
+    },
     {
       "id": "pg-hiphop",
       "status": "confirmado",
